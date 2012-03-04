@@ -1,0 +1,10 @@
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns="http://schemas.talis.com/2006/bigfoot/configuration#"> 
+  <JobRequest>
+    <rdfs:label>Reset the data in my store</rdfs:label>
+    <jobType rdf:resource="http://schemas.talis.com/2006/bigfoot/configuration#ResetDataJob"/>
+    <startTime/>
+  </JobRequest>
+</rdf:RDF>
